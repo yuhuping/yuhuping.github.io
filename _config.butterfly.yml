@@ -1,0 +1,22 @@
+# Butterfly 主题配置（覆盖 node_modules 内默认值，升级主题不丢失）
+# 完整文档：https://butterfly.js.org/
+
+# 导航菜单
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+
+# 代码块
+highlight_theme: mac
+highlight_copy: true
+highlight_lang: true
+
+# 社交图标（按需填写自己的链接，留空即不显示）
+social:
+  fab fa-github: https://github.com/yuhuping || Github
+
+# 文章字数统计（需安装 hexo-wordcount，可选）
+wordcount:
+  enable: false
