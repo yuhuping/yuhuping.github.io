@@ -17,6 +17,11 @@ highlight_lang: true
 social:
   fab fa-github: https://github.com/yuhuping || Github
 
+# 侧栏作者头像
+avatar:
+  img: /img/better-avatar.jpg
+  effect: false
+
 # 文章字数统计（需安装 hexo-wordcount，可选）
 wordcount:
   enable: false
